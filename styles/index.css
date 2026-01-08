@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    max-width: 1600px;
+}
+
+/* import link */
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+/* import link */
+header{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    width: 1600px;
+    height: 808px;
+    position: relative;
+    
+}
+
+h1{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    margin: 196px 230px 364px 845px;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: right;
+}
+p{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    margin: 472px 230px 262px 876px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: right;
+}
+button{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    border: none;
+    background: #F15B22;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 578px 230px 166px 1210px;
+}
